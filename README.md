@@ -5,7 +5,7 @@
 **ビジネスを動かす、総合力を持ったエンジニア**
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-sho--tsukamoto.jp-2563EB?style=for-the-badge&logoColor=white)](https://sho-tsukamoto.jp)
-[![CV](https://img.shields.io/badge/📄_CV-HackMD-3b4252?style=for-the-badge)](https://hackmd.io/@sho-tsukamoto/CV)
+[![CV](https://img.shields.io/badge/📄_CV-RESUME.md-3b4252?style=for-the-badge)](https://github.com/shoppie70/public-portfolio/blob/main/RESUME.md)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E7%BF%94-%E5%A1%9A%E6%9C%AC-74b27925a/)
 
 </div>
@@ -15,11 +15,12 @@
 ## 🙋 About Me
 
 - 🏢 **株式会社ハジメクリエイト** チーフエンジニア（2023.04〜）
-- ⚡ 入社1年・27歳で**社内最年少チーフエンジニア**に昇格
+- ⚡ 入社1年で**社内最年少チーフエンジニア**に昇格、5名のエンジニアチームを統括
 - 🎓 **国立津山工業高等専門学校** 情報工学科 卒業
-- 📍 岡山県 在住
 - 🛠️ 打ち合わせ → 要件定義 → DB設計 → インフラ → 実装まで **一気通貫**で対応
-- 🤖 AIエージェント × 人間のハイブリッドチームを統括し、**最速でプロダクトをビジネス価値へ**変えることがコアバリュー
+- 🤖 AIエージェント（Antigravity・Claude Code等）を全工程に統合し、**爆速でプロダクトをビジネス価値へ**変えることがコアバリュー
+- 🏥 医療分野スマホアプリ（Laravel + React Native）をGooglePlay / AppStoreへ単独リリース
+- 📄 OCR技術で従業員1,000名規模病院の定型業務を自動化・大幅効率化
 - ⚡ 第二種電気工事士 保有 — コードだけでなく**リアルな電気・ネットワーク工事**もこなす
 
 ---
