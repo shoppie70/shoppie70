@@ -10,10 +10,9 @@
 
 <!-- Navigation Badges -->
 <p align="center">
-  <a href="https://sho-tsukamoto.jp"><img src="https://img.shields.io/badge/🌐_Portfolio-sho--tsukamoto.jp-2563EB?style=for-the-badge&logoColor=white" alt="Portfolio"></a>
-  <a href="https://hackmd.io/@sho-tsukamoto/CV"><img src="https://img.shields.io/badge/📄_CV-HackMD-1E293B?style=for-the-badge&logoColor=white" alt="CV"></a>
+  <a href="https://sho-tsukamoto.jp"><img src="https://img.shields.io/badge/🌐_ポートフォリオ-sho--tsukamoto.jp-2563EB?style=for-the-badge&logoColor=white" alt="ポートフォリオ"></a>
+  <a href="https://github.com/shoppie70/public-portfolio/blob/main/RESUME.md"><img src="https://img.shields.io/badge/📄_職務経歴書-RESUME.md-1E293B?style=for-the-badge&logoColor=white" alt="職務経歴書"></a>
   <a href="https://www.linkedin.com/in/%E7%BF%94-%E5%A1%9A%E6%9C%AC-74b27925a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <img src="https://img.shields.io/badge/📍_Location-Okayama%2C_Japan-475569?style=for-the-badge" alt="Location">
 </p>
 
 </div>
@@ -26,23 +25,24 @@
 <tr>
 <td width="33%" valign="top">
 
-### 🏎️ 推進力 & チーム統括
-- **社内最年少チーフエンジニア**<br>入社1年・27歳でチーフへ昇格
-- **AI × 人間のハイブリッド開発**<br>自律型AIエージェントチームを統括・協調させ、最速でプロダクトを市場価値へ変換する体制を構築
+### 🏎️ 推進力 & 組織統括
+- **社内最年少チーフエンジニア**<br>入社1年でチーフへ昇格、5名のエンジニアチームを統括
+- **AI × 人間のハイブリッド開発**<br>自律型AIエージェント（Antigravity・Claude Code等）を全工程に統合し、爆速でプロダクトを市場価値へ変換する体制を構築
 
 </td>
 <td width="33%" valign="top">
 
 ### 🛠️ フルサイクル一気通貫
-- **上流から下流まで全領域対応**<br>要件定義・設計・DB・インフラ・実装までワンストップ
-- **マルチプラットフォーム機動力**<br>Webサービスだけでなく、macOSネイティブ、オンデバイスAI、CLIまで課題に最適な技術を選択
+- **全フェーズをワンストップ対応**<br>打ち合わせ → 要件定義 → DB設計 → インフラ → 実装 → リリースまで完結
+- **マルチプラットフォーム機動力**<br>Webサービスだけでなく、macOSネイティブ、オンデバイスAI、CLI、モバイルアプリ（単独リリース実績）まで幅広く開発
 
 </td>
 <td width="33%" valign="top">
 
 ### 🔌 リアル × デジタルの融合
 - **ハード・物理インフラ対応**<br>コードだけでなく、オフィスや現場の電気工事・通信ネットワーク配線も自ら施工
-- **技術のバックボーン**<br>国立津山高専 情報工学科卒<br>第二種電気工事士 / 工事担任者 保有
+- **業務DX & 自動化の実績**<br>OCR技術で1,000名規模病院の定型業務を自動化・効率化
+- **技術バックボーン**<br>国立津山高専 情報工学科卒<br>第二種電気工事士 / 工事担任者 保有
 
 </td>
 </tr>
@@ -50,7 +50,7 @@
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 技術スタック
 
 <div align="center">
 
@@ -66,7 +66,9 @@
 
 ---
 
-## 🛠️ Featured Works
+## 🛠️ プロダクト & プロジェクト
+
+> 全プロジェクトの詳細は [ポートフォリオサイト](https://sho-tsukamoto.jp) をご覧ください。
 
 ### 🖥️ macOS & ローカルAIアプリ
 > 完全ローカル実行・外部通信ゼロ。端末リソースを極限まで引き出すネイティブアプリケーション群。
@@ -84,20 +86,26 @@
 |---|---|---|
 | **[受診メモ生成アプリ](https://github.com/shoppie70/MedicalNoteApp)** | `React 19` `TypeScript` `Vite` `Tailwind CSS v4` | **病院での「伝え忘れ」「聞き忘れ」をゼロにするWebツール**<br>問診票フォーマットに沿って1分で要点を整理し、A4用紙1枚・PDFにぴったり最適化して出力。外部通信なし・乳幼児月齢自動計算にも対応。 |
 | **[ずきメモ](https://zukimemo.sho-tsukamoto.jp)** | `Laravel 12` `React` `Inertia.js` | **モダンモノリス構成の頭痛・体調管理Webサービス**<br>Inertia.jsによるSPAのような操作性とLaravelの堅牢性を両立。気象API連携による気圧予測や、医師提出用PDFレポート出力機能を搭載。 |
+| **[不動産契約書作成システム](https://sho-tsukamoto.jp)** | `Laravel` `PHPUnit` | **不動産業務DX・契約書類一括自動生成システム**<br>手作業のExcel転記をゼロへ。複雑な契約書・重説書類を正確かつ瞬時に一括出力し、業務効率を劇的に改善。 |
+| **[Postagram](https://postagram.sho-tsukamoto.jp)** | `Laravel 13` `Intervention Image v4` | **Instagram風 出産報告画像ジェネレーター**<br>InstagramのUIを完全再現した記念画像をブラウザ上で手軽に作成・保存できる個人開発Webサービス。 |
+| **[ほいサーチ](https://hoi-search.pages.dev/hiroshima/naka/)** | `Vite` `JavaScript` | **保育園の条件検索・一括比較アプリ**<br>広島市の保育園を希望条件でサクサク検索・一括比較し、保活の手間を大幅に軽減する支援Webアプリ。 |
 | **[Instagramトークン自動取得ツール](https://instagram.salvador79.dev/)** | `Laravel` `Meta Graph API` | **Instagram埋め込み用長期アクセストークン自動発行サービス**<br>煩雑なMeta開発者ポータルのOAuth認証フローを自動化。国内外の多数のWeb制作者・企業から日常的に利用される個人開発Webツール。 |
-| **[シオヨミ](https://github.com/shoppie70/TideGraphServiceForMyself)** | `Web API` `Frontend` | **シンプル・最速アクセスのタイドグラフ（潮見表）確認ツール**<br>釣りやマリンアクティビティ向けに、必要な潮汐データだけを最小限の手数・クリーンなUIで即座に参照可能。 |
+| **[シオヨミ](https://static.sho-tsukamoto.jp/tidegraph/)** | `PHP 8.0` `レイヤードアーキテクチャ` | **シンプル・最速アクセスのタイドグラフ（潮見表）ダッシュボード**<br>潮・風・天気を1画面に集約し、釣りやマリンアクティビティに必要なデータを最小手数で参照可能。 |
 
 ### 🛠️ 開発者向けツール & CLI
 | プロダクト | 技術スタック | 特徴・アピールポイント |
 |---|---|---|
 | **[pnpm一括移行ツール](https://github.com/shoppie70/pnpm-bulk-migrator)** | `TypeScript` `Node.js` `pnpm` `Git` | **Node.jsプロジェクトの再帰探索＆pnpm移行全自動化CLI**<br>ストレージを圧迫する巨大なnode_modulesを解消。安全確認・バージョン維持・ビルドスクリプト自動承認・Gitコミット＆リモート同期まで全自動実行。 |
-| **[Tailwind CSS スペーシング早見表](https://chromewebstore.google.com/)** | `Chrome Extensions API` `JavaScript` | **Tailwind CSSクラスとpx/rem数値のクイックリファレンス拡張**<br>コーディング中にブラウザから離れることなく、余白・フォントサイズの変換値を即座に確認可能。 |
+| **[Tailwind CSS スペーシング早見表](https://chromewebstore.google.com/detail/tailwind-css-spacing-size/ljlbegoippmblalbmmehdefachnhilln)** | `Chrome拡張機能` `JavaScript` | **Tailwind CSS余白クラスのクイックリファレンス拡張**<br>コーディング中にブラウザから離れることなく、余白クラスのpx/rem変換値を即座に参照・コピー可能。 |
+| **[Tailwind CSS フォントサイズ早見表](https://chromewebstore.google.com/detail/tailwind-css-font-size-qu/jdecefnmjmfbmcmpaboecebdlkpmkeel)** | `Chrome拡張機能` `JavaScript` | **Tailwind CSSフォントサイズクラスのクイックリファレンス拡張**<br>フォントサイズクラスを即座に確認・コピーし、チーム内のCSS共通言語化を推進。 |
 
-### 🏢 クライアントワーク & 業務システム
+### 🏢 クライアントワーク・教育・メディア
 | プロダクト | 技術スタック | 特徴・アピールポイント |
 |---|---|---|
 | **[ひまわり建宅 公式サイト](https://himaken.co.jp/)** | `WordPress` `Sage 10` `Tailwind CSS` | **地域密着型 不動産会社公式サイト**<br>クライアントへのヒアリング・要件定義から、WordPressモダン開発環境（Sage 10）によるカスタムブロック設計、SEO設計、実装・保守まで一貫担当。 |
 | **[前田杯 釣り大会システム](https://github.com/shoppie70/FishingTournamentEntryForm)** | `Laravel` `MySQL` | **フィッシングトーナメント オンラインエントリー＆管理システム**<br>年次大会のWeb応募受付・リアルタイム参加枠管理・釣果集計までをセキュアかつ効率的に運用可能にした業務Webシステム。 |
+| **[岡山科学技術専門学校 企業連携授業](https://github.com/shoppie70/LectureMaterials/blob/main/OIST/kagisen1122.pdf)** | `登壇` `資料制作` | **IT技術とセキュリティをテーマにした教育登壇**<br>学生向けに実践的なIT開発とセキュリティ意識を伝える企業連携授業を実施し、講義スライドを制作・公開。 |
+| **[YouTube「高嶺のしょぴこさん♪」](https://www.youtube.com/@shopico3)** | `YouTube運営` `メディア` | **趣味の釣りを自らメディア化**<br>動画撮影・編集・データ分析を実践し、約半年でチャンネル収益化を達成。 |
 
 ---
 
@@ -118,26 +126,26 @@
 
 ---
 
-## 🏆 Certifications & Qualifications
+## 🏆 資格・研修
 
 | 資格・修了認定 | 発行元 / 種別 | 領域・専門性 |
 |---|---|---|
 | 🔌 **第二種電気工事士** | 経済産業省（国家資格） | 住宅・事業所等の一般用電気工作物の工事施工・保守 |
 | 📡 **工事担任者 第二級デジタル通信** | 総務省（国家資格） | 電気通信回線設備に端末設備等を接続するための工事・監督 |
 | ⛵ **二級小型船舶操縦士** | 国土交通省（国家資格） | 総トン数20トン未満・海岸から5海里以内の操縦 |
-| 📊 **Google デジタルマーケティングの基礎** | Google / IAB Europe 公認 | Web分析・SEO・デジタル戦略の総合的基礎認定 (2022.12) |
-| 🚁 **ドローンエンジニア養成塾 16期生 修了** | ドローン・ジャパン | ArduPilotを活用した自律飛行ドローン制御3課程修了 (2024.01) |
-| 👔 **ITエンジニア管理職養成プログラム 修了** | 厚生労働省委託事業 | エンジニア組織マネジメント・リーダーシップ開発 (2024.03) |
+| 📊 **Google デジタルマーケティングの基礎 認定** | Google / IAB Europe 公認 | Web分析・SEO・デジタル戦略の総合的基礎認定（2022.12） |
+| 🚁 **ドローン・ジャパン ドローンエンジニア養成塾 16期生 修了** | ドローン・ジャパン | ArduPilotを活用した自律飛行ドローン制御3課程修了（2024.01） |
+| 👔 **ITエンジニアの特性に対応した管理職養成プログラム 修了** | 厚生労働省委託事業 | エンジニア組織マネジメント・リーダーシップ開発（2024.03） |
 
 ---
 
-## 📬 Contact & Links
+## 📬 コンタクト
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Official_Site-sho--tsukamoto.jp-2563EB?style=for-the-badge&logoColor=white)](https://sho-tsukamoto.jp)
+[![ポートフォリオ](https://img.shields.io/badge/🌐_sho--tsukamoto.jp-2563EB?style=for-the-badge&logoColor=white)](https://sho-tsukamoto.jp)
+[![職務経歴書](https://img.shields.io/badge/📄_RESUME.md-1E293B?style=for-the-badge&logoColor=white)](https://github.com/shoppie70/public-portfolio/blob/main/RESUME.md)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sho_Tsukamoto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%E7%BF%94-%E5%A1%9A%E6%9C%AC-74b27925a/)
-[![CV](https://img.shields.io/badge/📄_Curriculum_Vitae-HackMD-1E293B?style=for-the-badge&logoColor=white)](https://hackmd.io/@sho-tsukamoto/CV)
 
 <br>
 
