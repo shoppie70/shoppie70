@@ -18,32 +18,17 @@
 
 ## 強み
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top">
-
 ### 推進と組織統括
-- **社内最年少チーフエンジニア**<br>入社1年でチーフへ昇格し、5名のエンジニアチームを統括
-- **AIと人間のハイブリッド開発**<br>Antigravity・Claude Code などの自律型AIエージェントを開発工程に組み込み、プロダクトを市場に出すまでの速度を上げている
 
-</td>
-<td width="33%" valign="top">
+入社1年で社内最年少のチーフエンジニアに昇格し、5名のエンジニアチームを統括している。AntigravityやClaude Codeなどの自律型AIエージェントを開発工程に組み込み、プロダクトを市場に出すまでの速度を上げている。
 
 ### フルサイクル開発
-- **要件からリリースまで**<br>打ち合わせ、要件定義、DB設計、インフラ、実装、リリースまで一通り担当
-- **複数プラットフォーム**<br>Webに加え、macOSネイティブ、オンデバイスAI、CLI、モバイルアプリ（単独リリース実績あり）も開発
 
-</td>
-<td width="33%" valign="top">
+打ち合わせ、要件定義、DB設計、インフラ、実装、リリースまで一通り担当する。Webに加え、macOSネイティブ、オンデバイスAI、CLI、モバイルアプリ（単独リリース実績あり）も手がける。
 
 ### 現場とデジタル
-- **ハード・物理インフラ**<br>オフィスや現場の電気工事・通信ネットワーク配線も自ら施工
-- **業務DXと自動化**<br>OCRで1,000名規模の病院の定型業務を自動化・効率化
-- **経歴と資格**<br>国立津山高専 情報工学科卒<br>第二種電気工事士 / 工事担任者
 
-</td>
-</tr>
-</table>
+コードだけでなく、オフィスや現場の電気工事・通信ネットワーク配線も自ら施工する。OCRで1,000名規模の病院の定型業務を自動化した。国立津山高専 情報工学科卒。第二種電気工事士 / 工事担任者。
 
 ---
 
@@ -68,42 +53,82 @@
 詳細は [ポートフォリオサイト](https://sho-tsukamoto.jp) を参照。
 
 ### macOS / ローカルAIアプリ
+
 ローカル完結・外部通信なしで動くネイティブアプリ。
 
-| プロダクト | 技術スタック | 概要 |
-|---|---|---|
-| **[透かすだけ](https://github.com/shoppie70/sukasudake)** | `Swift` `Python` `CoreML` `BiRefNet` | **オフライン画像背景透過GUI**<br>Apple SiliconのNeural Engineを使い、外部通信なしで背景透過。BiRefNetとエッジマッティングによる高精度切り抜き。 |
-| **[2分にしてね](https://github.com/shoppie70/Mitene-Video-Converter)**<br>([Webサイト](https://shoppie70.github.io/Mitene-Video-Converter/)) | `Swift 6.0` `macOS Universal` `AVFoundation` | **家族アルバム「みてね」向け動画分割・軽量化**<br>ドラッグ＆ドロップで長尺動画を2分単位に分割。撮影日時メタデータを引き継ぎ、写真アプリ・Finderへ渡せる。 |
-| **[HEICをJPEGへ縮小圧縮するだけ](https://github.com/shoppie70/HeicToJpegCompressor)**<br>([Webサイト](https://shoppie70.github.io/HeicToJpegCompressor/)) | `macOS Universal` `ImageIO` | **iPhone写真の一括リサイズ・メタデータ削除**<br>ドロップでWEB用JPEGを出力。EXIFやGPSを削除し、ローカルだけで処理を完結。 |
+**[透かすだけ](https://github.com/shoppie70/sukasudake)**  
+オフライン画像背景透過GUI。Apple SiliconのNeural Engineを使い、外部通信なしで背景透過する。BiRefNetとエッジマッティングによる高精度切り抜き。  
+<sub>Swift · Python · CoreML · BiRefNet</sub>
+
+**[2分にしてね](https://github.com/shoppie70/Mitene-Video-Converter)** · [Webサイト](https://shoppie70.github.io/Mitene-Video-Converter/)  
+家族アルバム「みてね」向けの動画分割・軽量化アプリ。ドラッグ＆ドロップで長尺動画を2分単位に分割し、撮影日時メタデータを引き継いで写真アプリ・Finderへ渡せる。  
+<sub>Swift 6.0 · macOS Universal · AVFoundation</sub>
+
+**[HEICをJPEGへ縮小圧縮するだけ](https://github.com/shoppie70/HeicToJpegCompressor)** · [Webサイト](https://shoppie70.github.io/HeicToJpegCompressor/)  
+iPhone写真の一括リサイズ・メタデータ削除ツール。ドロップでWEB用JPEGを出力し、EXIFやGPSをローカルだけで削除する。  
+<sub>macOS Universal · ImageIO</sub>
 
 ### Webアプリとサービス
 
-| プロダクト | 技術スタック | 概要 |
-|---|---|---|
-| **[受診メモ生成アプリ](https://github.com/shoppie70/MedicalNoteApp)** | `React 19` `TypeScript` `Vite` `Tailwind CSS v4` | **病院向けメモ整理Webツール**<br>問診票フォーマットに沿って要点を整理し、A4・PDF向けに出力。外部通信なし。乳幼児の月齢自動計算にも対応。 |
-| **[ずきメモ](https://zukimemo.sho-tsukamoto.jp)** | `Laravel 12` `React` `Inertia.js` | **頭痛・体調管理Webサービス**<br>Inertia.jsでSPA寄りの操作感とLaravelのバックエンドを併用。気象API連携の気圧予測、医師提出用PDFレポート出力あり。 |
-| **[不動産契約書作成システム](https://sho-tsukamoto.jp)** | `Laravel` `PHPUnit` | **不動産向け契約書類の一括生成**<br>Excelへの手作業転記を減らし、契約書・重説書類をまとめて出力する業務システム。 |
-| **[Postagram](https://postagram.sho-tsukamoto.jp)** | `Laravel 13` `Intervention Image v4` | **Instagram風の出産報告画像ジェネレーター**<br>Instagram風のUIで記念画像をブラウザ上で作成・保存できる個人開発サービス。 |
-| **[ほいサーチ](https://hoi-search.pages.dev/hiroshima/naka/)** | `Vite` `JavaScript` | **保育園の条件検索・一括比較**<br>広島市の保育園を希望条件で検索・比較する保活向けWebアプリ。 |
-| **[Instagramトークン自動取得ツール](https://instagram.salvador79.dev/)** | `Laravel` `Meta Graph API` | **Instagram埋め込み用長期アクセストークンの自動発行**<br>Meta開発者ポータルのOAuth認証フローを自動化。Web制作者・企業向けの個人開発ツール。 |
-| **[シオヨミ](https://static.sho-tsukamoto.jp/tidegraph/)** | `PHP 8.0` `レイヤードアーキテクチャ` | **タイドグラフ（潮見表）ダッシュボード**<br>潮・風・天気を1画面にまとめ、釣りやマリン向けの参照用画面。 |
+**[受診メモ生成アプリ](https://github.com/shoppie70/MedicalNoteApp)**  
+病院向けメモ整理Webツール。問診票フォーマットに沿って要点を整理し、A4・PDF向けに出力する。外部通信なし。乳幼児の月齢自動計算にも対応。  
+<sub>React 19 · TypeScript · Vite · Tailwind CSS v4</sub>
+
+**[ずきメモ](https://zukimemo.sho-tsukamoto.jp)**  
+頭痛・体調管理Webサービス。Inertia.jsでSPA寄りの操作感とLaravelのバックエンドを併用。気象API連携の気圧予測、医師提出用PDFレポート出力あり。  
+<sub>Laravel 12 · React · Inertia.js</sub>
+
+**[不動産契約書作成システム](https://sho-tsukamoto.jp)**  
+不動産向け契約書類の一括生成。Excelへの手作業転記を減らし、契約書・重説書類をまとめて出力する業務システム。  
+<sub>Laravel · PHPUnit</sub>
+
+**[Postagram](https://postagram.sho-tsukamoto.jp)**  
+Instagram風の出産報告画像ジェネレーター。ブラウザ上で記念画像を作成・保存できる個人開発サービス。  
+<sub>Laravel 13 · Intervention Image v4</sub>
+
+**[ほいサーチ](https://hoi-search.pages.dev/hiroshima/naka/)**  
+保育園の条件検索・一括比較。広島市の保育園を希望条件で検索・比較する保活向けWebアプリ。  
+<sub>Vite · JavaScript</sub>
+
+**[Instagramトークン自動取得ツール](https://instagram.salvador79.dev/)**  
+Instagram埋め込み用の長期アクセストークン自動発行。Meta開発者ポータルのOAuth認証フローを自動化する、Web制作者・企業向け個人開発ツール。  
+<sub>Laravel · Meta Graph API</sub>
+
+**[シオヨミ](https://static.sho-tsukamoto.jp/tidegraph/)**  
+タイドグラフ（潮見表）ダッシュボード。潮・風・天気を1画面にまとめ、釣りやマリン向けに参照できる。  
+<sub>PHP 8.0 · レイヤードアーキテクチャ</sub>
 
 ### 開発者向けツール / CLI
 
-| プロダクト | 技術スタック | 概要 |
-|---|---|---|
-| **[pnpm一括移行ツール](https://github.com/shoppie70/pnpm-bulk-migrator)** | `TypeScript` `Node.js` `pnpm` `Git` | **Node.jsプロジェクトの再帰探索とpnpm移行CLI**<br>巨大なnode_modulesを整理するため、安全確認・バージョン維持・ビルドスクリプト承認・Gitコミットとリモート同期まで自動化。 |
-| **[Tailwind CSS スペーシング早見表](https://chromewebstore.google.com/detail/tailwind-css-spacing-size/ljlbegoippmblalbmmehdefachnhilln)** | `Chrome拡張機能` `JavaScript` | **Tailwind余白クラスのクイックリファレンス**<br>余白クラスのpx/rem変換値をブラウザ内で参照・コピー。 |
-| **[Tailwind CSS フォントサイズ早見表](https://chromewebstore.google.com/detail/tailwind-css-font-size-qu/jdecefnmjmfbmcmpaboecebdlkpmkeel)** | `Chrome拡張機能` `JavaScript` | **Tailwindフォントサイズクラスのクイックリファレンス**<br>フォントサイズクラスをその場で確認・コピー。 |
+**[pnpm一括移行ツール](https://github.com/shoppie70/pnpm-bulk-migrator)**  
+Node.jsプロジェクトの再帰探索とpnpm移行CLI。巨大なnode_modulesを整理するため、安全確認・バージョン維持・ビルドスクリプト承認・Gitコミットとリモート同期まで自動化する。  
+<sub>TypeScript · Node.js · pnpm · Git</sub>
+
+**[Tailwind CSS スペーシング早見表](https://chromewebstore.google.com/detail/tailwind-css-spacing-size/ljlbegoippmblalbmmehdefachnhilln)**  
+Tailwind余白クラスのクイックリファレンス。余白クラスのpx/rem変換値をブラウザ内で参照・コピーできる。  
+<sub>Chrome拡張機能 · JavaScript</sub>
+
+**[Tailwind CSS フォントサイズ早見表](https://chromewebstore.google.com/detail/tailwind-css-font-size-qu/jdecefnmjmfbmcmpaboecebdlkpmkeel)**  
+Tailwindフォントサイズクラスのクイックリファレンス。フォントサイズクラスをその場で確認・コピーできる。  
+<sub>Chrome拡張機能 · JavaScript</sub>
 
 ### クライアントワーク・教育・メディア
 
-| プロダクト | 技術スタック | 概要 |
-|---|---|---|
-| **[ひまわり建宅 公式サイト](https://himaken.co.jp/)** | `WordPress` `Sage 10` `Tailwind CSS` | **不動産会社の公式サイト**<br>ヒアリング・要件定義から、Sage 10によるカスタムブロック設計、SEO設計、実装・保守まで担当。 |
-| **[前田杯 釣り大会システム](https://github.com/shoppie70/FishingTournamentEntryForm)** | `Laravel` `MySQL` | **フィッシングトーナメントのエントリー・管理**<br>Web応募受付、参加枠管理、釣果集計を扱う業務Webシステム。 |
-| **[岡山科学技術専門学校 企業連携授業](https://github.com/shoppie70/LectureMaterials/blob/main/OIST/kagisen1122.pdf)** | `登壇` `資料制作` | **ITとセキュリティをテーマにした教育登壇**<br>学生向けに開発とセキュリティの授業を実施し、講義スライドを公開。 |
-| **[YouTube「高嶺のしょぴこさん♪」](https://www.youtube.com/@shopico3)** | `YouTube運営` `メディア` | **釣りの動画チャンネル**<br>撮影・編集・データ分析を自分で行い、約半年でチャンネル収益化。 |
+**[ひまわり建宅 公式サイト](https://himaken.co.jp/)**  
+不動産会社の公式サイト。ヒアリング・要件定義から、Sage 10によるカスタムブロック設計、SEO設計、実装・保守まで担当。  
+<sub>WordPress · Sage 10 · Tailwind CSS</sub>
+
+**[前田杯 釣り大会システム](https://github.com/shoppie70/FishingTournamentEntryForm)**  
+フィッシングトーナメントのエントリー・管理。Web応募受付、参加枠管理、釣果集計を扱う業務Webシステム。  
+<sub>Laravel · MySQL</sub>
+
+**[岡山科学技術専門学校 企業連携授業](https://github.com/shoppie70/LectureMaterials/blob/main/OIST/kagisen1122.pdf)**  
+ITとセキュリティをテーマにした教育登壇。学生向けに開発とセキュリティの授業を実施し、講義スライドを公開。  
+<sub>登壇 · 資料制作</sub>
+
+**[YouTube「高嶺のしょぴこさん♪」](https://www.youtube.com/@shopico3)**  
+釣りの動画チャンネル。撮影・編集・データ分析を自分で行い、約半年でチャンネル収益化。  
+<sub>YouTube運営 · メディア</sub>
 
 ---
 
@@ -111,8 +136,8 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=shoppie70&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shoppie70&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Langs" />
+<img height="165" src="https://github-stats-extended.vercel.app/api?username=shoppie70&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub Stats" />
+<img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=shoppie70&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Langs" />
 
 </div>
 
